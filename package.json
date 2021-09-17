@@ -1,0 +1,21 @@
+{
+  "name": "devjobs-web-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:PedroLealLopes/devjobs.git",
+  "author": "PedroLealLopes <pedro.ml.lopes.98@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
